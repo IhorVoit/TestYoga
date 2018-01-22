@@ -1,0 +1,128 @@
+@import "vars"
+
+@media only screen and (max-width: 1200px)
+	.class
+		&-block
+			min-width: 80%
+			margin-top: 30px
+			margin-left: 10%
+	.portfolio
+		background-color: lighten($grey, 10%)
+		box-shadow: 0 0 50px 50px rgba(0, 0, 0, 0.1)
+		&-item
+			.circle
+				margin-right: -20px	
+	.feature
+		padding: 70px 0
+		&-block
+			padding: 0 100px
+	.price
+		&-block
+			width: 30%
+
+@media only screen and (max-width: 992px)		
+	.block-for-slider
+		margin-top: 50px	
+	.portfolio
+		text-align: center
+	.feature
+		&-block
+			padding: 0 50px		
+	.price
+		margin-top: 50px
+		&-block
+			width: 50%
+			margin-left: 25%
+			margin-bottom: 50px
+			&:first-child
+				margin-left: 25%
+	.footer
+		p
+			padding-right: 10px			
+@media only screen and (max-width: 768px)
+	.class
+		&-block
+			width: 80%
+			text-align: center
+			p
+				padding-right: 10px
+				padding-left: 10px
+			&-image
+				img
+					max-width: 100%
+					border-radius: 10px
+	.portfolio
+		&-item
+			img
+				max-width: 100%			
+	.about-us
+		margin-top: 50px
+		margin-bottom: 100px
+		text-align: center		
+	.feature
+		&-block
+			padding: 0 150px		
+	.review
+		display: none		
+	.footer
+		padding-top: 50px
+		h4
+			margin-top: 50px
+	.about-us
+		img
+			margin-top: 0		
+
+@media only screen and (max-width: 550px)	
+	.feature
+		&-block
+			max-width: 80%
+			margin-left: 10%
+			padding: 0 10px	
+	.price
+		&-block
+			width: 70%
+			margin-left: 15%		
+			&:first-child
+				margin-left: 15%		
+	.header
+		h1
+			font-size: 30px			
+	.top-button
+		width: 40px
+		height: 40px	
+		&::before
+			top: 5px
+			transform: rotate(40deg)	
+			left: 9px
+		&::after
+			transform: rotate(140deg)	
+			top: 5px
+			left: 21px
+@media only screen and (max-width: 480px)
+	.price
+		&-block
+			width: 90%
+			margin-left: 5%
+			&:first-child
+				margin-left: 5%
+	.footer *
+		margin-right: 0
+		margin-left: 0
+		padding-right: 0
+		padding-left: 0		
+	.header
+		h1
+			font-size: 26px		
+	.menu-button
+		top: 30px
+		right: 30px			
+	.top-button
+		bottom: 30px
+		right: 30px	
+// @media only screen and (min-width: 480px)
+
+// @media only screen and (min-width: 768px)
+	
+// @media only screen and (min-width: 992px)
+
+// @media only screen and (min-width: 1200px)
